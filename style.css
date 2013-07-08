@@ -1,0 +1,205 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+
+
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+/*Sharons Code*/
+
+html, body {
+	font-family: Arial, sans-serif;	
+}
+
+.wrapper {
+	width: 100%;
+	margin:auto;
+}
+
+ul {
+	width: 100%;
+}
+
+ul li a {
+	text-decoration: none;
+}
+
+nav {
+ 	background-color: #222222;
+	height: 35px;
+	opacity: 1;
+	width: 100%;
+	white-space: nowrap;
+}
+
+nav li {
+	font-size: 13px;
+	font-weight: bold;
+	display: inline-block;
+	padding-right: 8px;
+	line-height: 35px;
+	margin-left: 15px;
+}
+
+nav li a {
+	color: #bbb;	
+}
+
+nav li a:hover {
+	color: white;
+}
+
+.main {
+	position: absolute;
+	width: 100%;
+	margin: 0px auto;
+	text-align: center;
+}
+
+#signin {
+	float: right;
+	width: 73px;
+	height: 29px;
+	background-color: #D14836;
+	border-radius: 2px;
+	margin: 20px 40px;
+	
+}
+
+#signin a {
+	text-decoration: none;
+	font-size: 11px;
+	font-weight: bold;
+	color: white;
+	line-height:29px;	
+}
+
+#signin:hover{
+ 	 background-color:#c53727;
+}
+
+.googlelogo {
+	position: relative;
+	width: 100%;
+	height: 90px;
+	margin-top: 112px;
+	margin-bottom:20px;
+}
+
+input {
+	width: 523px;
+	height: 31px;    
+	border: solid 1px #898989;
+	box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1) inset;
+}
+
+input:hover {
+	border-color: rgb(122, 108, 108);
+}
+
+#but1, #but2 {
+	position: relative;
+	display: inline-block;
+	margin-top: 20px;
+	background-color: #F0F0F0;
+    border: 1px solid #DCDCDC;
+    border-radius: 2px;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+    font-size: 11px;
+    font-weight: bold; 
+    padding: 8px;
+}
+
+#but1 {
+  	margin-right: 5px;
+}
+
+#but2 {
+  	margin-left: 5px;
+}
+
+#but1 a, #but2 a {
+	color: #222; 
+}
+
+#but1:hover, #but2:hover {
+	border-color:#c6c6c6;
+}
+
+footer {
+	position: absolute;
+	bottom: 0; 
+	width: 100%;
+	height: 30px;
+	border-top: solid #bbb 1px;
+	padding-top: 8px;
+	white-space: nowrap;
+}
+
+footer ul {
+	position: absolute;
+	text-align: right;
+}
+
+footer ul li {
+	position: relative;
+	display: inline;
+	right: 10px;
+	font-size: 12px;
+	color:#908383;
+	padding-right: 10px;
+}
+
+footer ul li a {
+	color: #666666;
+}
+
+footer ul li a:hover{
+	text-decoration: underline;
+}
+
